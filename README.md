@@ -17,44 +17,55 @@ lays the groundwork for future research into bias in recommender systems.
 
 ## 💻 Streamlit app
 ### Visualize data
-![image](https://user-images.githubusercontent.com/48930309/198675351-a43220a1-cd58-4097-aebb-751e41ffd920.png)
+| ![image](https://user-images.githubusercontent.com/48930309/198675351-a43220a1-cd58-4097-aebb-751e41ffd920.png) |
+|:--:|
+| <b>Useful information about Movielens1M dataset</b>|
 
 In this page, the user can get a qualitative understanding of the data via getting useful information and statistical details for the dataset and via 4 main types of plots that are offered:
+
 <details><summary>Most rated itemss</summary>
 <p>
-
+ 
 ![image](https://user-images.githubusercontent.com/48930309/198682956-3186bc8b-f1b2-4586-ac03-762430585110.png)
-
+ 
 </p>
 </details>
+
 <details><summary>Top users</summary>
 <p>
-
-
+ 
 ![image](https://user-images.githubusercontent.com/48930309/198683638-2fc84135-fb07-42d9-9184-3b33d98eb1ea.png)
-
+ 
 </p>
 </details>
-<details><summary>Average number of ratings</summary>
-<p>
 
-![image](https://user-images.githubusercontent.com/48930309/198683718-f46bcaee-fcc6-4a99-a88e-9a2d22b00a7b.png)
-
-
-</p>
-</details>
 <details><summary>Long tail</summary>
 <p>
+ 
 ![image](https://user-images.githubusercontent.com/48930309/198683765-feb7e3d2-94da-4cbf-a231-9510ba518ae3.png)
-
-
+ 
 </p>
 </details>
 
+<details><summary>Average number of ratings</summary> 
+<p>
+ 
+![image](https://user-images.githubusercontent.com/48930309/198683718-f46bcaee-fcc6-4a99-a88e-9a2d22b00a7b.png)
+ 
+</p>
+</details>
+
+
+
 ### Build recommendation system
-choosing from a variety of algorithms and evaluation metrics, provided by Elliot framework . You can use the default values of the hyperparameters of every algorithm or set your preferred values (Note: for more experienced users). 
+The user can also build a recommender systems, choosing from a variety of algorithms and evaluation metrics, provided by [Elliot framework](https://github.com/sisinflab/elliot). 
 ![image](https://user-images.githubusercontent.com/48930309/198673033-b0e23409-9b63-43a1-9b3e-79cadc8c7093.png)
 ![image](https://user-images.githubusercontent.com/48930309/198673266-bc6a128f-892d-4540-9c45-a514e6c85b4b.png)
+
+
+
+He can use the default values of the hyperparameters of every algorithm or set his preferred values (Note: for more experienced users). :
+
 ![image](https://user-images.githubusercontent.com/48930309/198674292-39bde047-4913-4ea7-a202-dcd2345c957d.png)
 
 ### Bias identification
