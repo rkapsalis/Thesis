@@ -1,5 +1,6 @@
-# Research and development of a system for bias identification in recommender systems
-## Abstract
+# ⚖ Research and development of a system for bias identification in recommender systems
+![image](https://user-images.githubusercontent.com/48930309/198666695-e314fec9-f35b-4c28-b218-5940e2d77e60.png)
+## 📕 Abstract
 <div align= "justify">
 Recently, researchers have increased their scrutiny of ethical issues on artificial intelligence (AI), especially οn the field of Machine Learning. However, most previous studies on the area of Ethical Machine Learning have only focused on classification and regression tasks,  while only a few studies have investigated ethical issues on recommender systems.
 The aim of this Diploma Thesis is to contribute to the understanding of biases that appear in recommender systems. 
@@ -13,3 +14,38 @@ This study has identified that data characteristics, and especially the sparsity
 In conclusion, developers of recommender systems need to be aware of sources of biases and of the accuracy-bias tradeoff. This work contributes to this direction and
 lays the groundwork for future research into bias in recommender systems.
 </div>
+
+## 💻 Streamlit app
+### Visualize data
+![image](https://user-images.githubusercontent.com/48930309/198675351-a43220a1-cd58-4097-aebb-751e41ffd920.png)
+
+- Most rated items
+- Top users
+- Average number of ratings
+- Long tail
+### Build recommendation system
+![image](https://user-images.githubusercontent.com/48930309/198673033-b0e23409-9b63-43a1-9b3e-79cadc8c7093.png)
+![image](https://user-images.githubusercontent.com/48930309/198673266-bc6a128f-892d-4540-9c45-a514e6c85b4b.png)
+![image](https://user-images.githubusercontent.com/48930309/198674292-39bde047-4913-4ea7-a202-dcd2345c957d.png)
+
+### Bias identification
+- Hyperaparameter analysis
+![image](https://user-images.githubusercontent.com/48930309/198676778-99d260ba-6b8e-41d4-b40c-01bc77d6622a.png)
+- Best results
+![image](https://user-images.githubusercontent.com/48930309/198676083-4e5e7333-9cea-4700-b94e-54b912be476d.png)
+
+- Cutoff analysis
+![image](https://user-images.githubusercontent.com/48930309/198676163-70a5fa7f-ad2d-4b46-840b-fad41a4888b9.png)
+
+- Dataset comparison
+![image](https://user-images.githubusercontent.com/48930309/198677162-8f2f15d9-8a9e-467f-9067-f8a1d674fa9d.png)
+
+### Bias mitigation
+### Metrics explanation
+![image](https://user-images.githubusercontent.com/48930309/198674718-ab38570d-480f-4007-94bd-88e803a17d0c.png)
+![image](https://user-images.githubusercontent.com/48930309/198674819-f959c827-fc03-40d3-9333-938524ec6daa.png)
+
+### Upload data
+![image](https://user-images.githubusercontent.com/48930309/198674899-5509ad2f-17b5-486b-8615-9dd635a2947f.png)
+
+
