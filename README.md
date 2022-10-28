@@ -19,33 +19,95 @@ lays the groundwork for future research into bias in recommender systems.
 ### Visualize data
 ![image](https://user-images.githubusercontent.com/48930309/198675351-a43220a1-cd58-4097-aebb-751e41ffd920.png)
 
-- Most rated items
-- Top users
-- Average number of ratings
-- Long tail
+In this page, the user can get a qualitative understanding of the data via getting useful information and statistical details for the dataset and via 4 main types of plots that are offered:
+<details><summary>Most rated itemss</summary>
+<p>
+
+![image](https://user-images.githubusercontent.com/48930309/198682956-3186bc8b-f1b2-4586-ac03-762430585110.png)
+
+</p>
+</details>
+<details><summary>Top users</summary>
+<p>
+
+
+![image](https://user-images.githubusercontent.com/48930309/198683638-2fc84135-fb07-42d9-9184-3b33d98eb1ea.png)
+
+</p>
+</details>
+<details><summary>Average number of ratings</summary>
+<p>
+
+![image](https://user-images.githubusercontent.com/48930309/198683718-f46bcaee-fcc6-4a99-a88e-9a2d22b00a7b.png)
+
+
+</p>
+</details>
+<details><summary>Long tail</summary>
+<p>
+![image](https://user-images.githubusercontent.com/48930309/198683765-feb7e3d2-94da-4cbf-a231-9510ba518ae3.png)
+
+
+</p>
+</details>
+
 ### Build recommendation system
+choosing from a variety of algorithms and evaluation metrics, provided by Elliot framework . You can use the default values of the hyperparameters of every algorithm or set your preferred values (Note: for more experienced users). 
 ![image](https://user-images.githubusercontent.com/48930309/198673033-b0e23409-9b63-43a1-9b3e-79cadc8c7093.png)
 ![image](https://user-images.githubusercontent.com/48930309/198673266-bc6a128f-892d-4540-9c45-a514e6c85b4b.png)
 ![image](https://user-images.githubusercontent.com/48930309/198674292-39bde047-4913-4ea7-a202-dcd2345c957d.png)
 
 ### Bias identification
-- Hyperaparameter analysis
-![image](https://user-images.githubusercontent.com/48930309/198676778-99d260ba-6b8e-41d4-b40c-01bc77d6622a.png)
-- Best results
+using the evaluation metrics of your preference. There are 24 metrics available including accuracy, popularity bias, coverage, diversity and novelty metrics, provided by Elliot framework. You can either analyze the results of a single dataset or compare the results of different datasets. 
+<details><summary>Best results</summary>
+<p>
+
+#### Best results
 ![image](https://user-images.githubusercontent.com/48930309/198676083-4e5e7333-9cea-4700-b94e-54b912be476d.png)
 
-- Cutoff analysis
+
+
+</p>
+</details>
+
+<details><summary>Hyperaparameter analysis</summary>
+<p>
+
+
+![image](https://user-images.githubusercontent.com/48930309/198676778-99d260ba-6b8e-41d4-b40c-01bc77d6622a.png)
+
+</p>
+</details>
+
+<details><summary>Cutoff analysis</summary>
+<p>
+
 ![image](https://user-images.githubusercontent.com/48930309/198676163-70a5fa7f-ad2d-4b46-840b-fad41a4888b9.png)
 
-- Dataset comparison
+</p>
+</details>
+<details><summary>Dataset comparison</summary>
+<p>
+
 ![image](https://user-images.githubusercontent.com/48930309/198677162-8f2f15d9-8a9e-467f-9067-f8a1d674fa9d.png)
 
+</p>
+</details>
+
 ### Bias mitigation
+The bias mitigation technique used, belongs to the category of post-processing techniques, and more specifically to the re-ranking algorithms. These techniques take as input a recommendation list for every user in the dataset, produced by an algorithm of your choice. There 3 bias mitigation algorithms, available in our app: FAR, PFAR and FA*IR. These algorithms are provided by Librec-auto
+ 
+![image](https://user-images.githubusercontent.com/48930309/198679870-33f89129-6320-4121-89e9-7536e76df0bb.png)
+
+When the bias mitigation process has been completed, plots comparing the results produced by the technique with the initial results are shown. 
+
 ### Metrics explanation
+The app provides also detailed and simple explanations in non-technical terms, for all the evaluation metrics contained in Elliot framework:
 ![image](https://user-images.githubusercontent.com/48930309/198674718-ab38570d-480f-4007-94bd-88e803a17d0c.png)
 ![image](https://user-images.githubusercontent.com/48930309/198674819-f959c827-fc03-40d3-9333-938524ec6daa.png)
 
 ### Upload data
 ![image](https://user-images.githubusercontent.com/48930309/198674899-5509ad2f-17b5-486b-8615-9dd635a2947f.png)
 
-
+## 📜 License
+[Creative Commons Zero v1.0 Universal](https://github.com/rkapsalis/Thesis/blob/main/license.md)
