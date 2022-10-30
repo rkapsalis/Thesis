@@ -58,18 +58,18 @@ In this page, the user can get a qualitative understanding of the data via getti
 
 
 ### Build recommendation system
-The user can also build a recommender systems, choosing from a variety of algorithms and evaluation metrics, provided by [Elliot framework](https://github.com/sisinflab/elliot). 
+The user can also build a recommendation system, choosing from a variety of algorithms and evaluation metrics, provided by [Elliot framework](https://github.com/sisinflab/elliot). 
 ![image](https://user-images.githubusercontent.com/48930309/198673033-b0e23409-9b63-43a1-9b3e-79cadc8c7093.png)
 ![image](https://user-images.githubusercontent.com/48930309/198673266-bc6a128f-892d-4540-9c45-a514e6c85b4b.png)
 
 
 
-He can use the default values of the hyperparameters of every algorithm or set his preferred values (Note: for more experienced users). :
+He can use the default values of the hyperparameters of every algorithm or set his preferred values (for more experienced users):
 
 ![image](https://user-images.githubusercontent.com/48930309/198674292-39bde047-4913-4ea7-a202-dcd2345c957d.png)
 
 ### Bias identification
-using the evaluation metrics of your preference. There are 24 metrics available including accuracy, popularity bias, coverage, diversity and novelty metrics, provided by Elliot framework. You can either analyze the results of a single dataset or compare the results of different datasets. 
+After building a recommender system, the user can analyze the generated recommendations by using the evaluation metrics of his preference. There are 24 metrics available including accuracy, popularity bias, coverage, diversity and novelty metrics, provided by Elliot framework. You can either analyze the results of a single dataset or compare the results of different datasets. 
 <details><summary>Best results</summary>
 <p>
 
@@ -106,14 +106,14 @@ using the evaluation metrics of your preference. There are 24 metrics available 
 </details>
 
 ### Bias mitigation
-The bias mitigation technique used, belongs to the category of post-processing techniques, and more specifically to the re-ranking algorithms. These techniques take as input a recommendation list for every user in the dataset, produced by an algorithm of your choice. There 3 bias mitigation algorithms, available in our app: FAR, PFAR and FA*IR. These algorithms are provided by Librec-auto
+The bias mitigation technique used, belongs to the category of post-processing techniques, and more specifically to the re-ranking algorithms. These techniques take as input a recommendation list for every user in the dataset, produced by an algorithm of your choice. There are 3 bias mitigation algorithms, available in our app: FAR, PFAR and FA*IR. These algorithms are provided by [Librec-auto](https://github.com/that-recsys-lab/librec-auto).
  
 ![image](https://user-images.githubusercontent.com/48930309/198679870-33f89129-6320-4121-89e9-7536e76df0bb.png)
 
 When the bias mitigation process has been completed, plots comparing the results produced by the technique with the initial results are shown. 
 
 ### Metrics explanation
-The app provides also detailed and simple explanations in non-technical terms, for all the evaluation metrics contained in Elliot framework:
+The app provides also detailed and simple explanations in non-technical terms, for all the evaluation metrics contained in our app:
 ![image](https://user-images.githubusercontent.com/48930309/198674718-ab38570d-480f-4007-94bd-88e803a17d0c.png)
 ![image](https://user-images.githubusercontent.com/48930309/198674819-f959c827-fc03-40d3-9333-938524ec6daa.png)
 
